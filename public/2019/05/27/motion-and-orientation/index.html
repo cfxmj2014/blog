@@ -96,20 +96,18 @@
 
 
 
-  <meta name="description" content="搞技术的应该有一个博客，写写技术，写写感想，写写人生，😄写博客会上瘾，😄这很逼格，😄">
-<meta name="keywords" content="其它">
+  <meta name="description" content="- 介绍日常开发中，如果使用加速度计、陀螺仪和罗盘相关功能，需要监听设备方向事件deviceorientation和设备运动事件devicemotion。 相关文档">
+<meta name="keywords" content="日常开发总结,Web">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World!">
-<meta property="og:url" content="https://cfxmj.com/2016/08/01/hello/index.html">
+<meta property="og:title" content="iOS12.2+设备屏幕方向与运动失效问题">
+<meta property="og:url" content="https://cfxmj.com/2019/05/27/motion-and-orientation/index.html">
 <meta property="og:site_name" content="一年的个人博客">
-<meta property="og:description" content="搞技术的应该有一个博客，写写技术，写写感想，写写人生，😄写博客会上瘾，😄这很逼格，😄">
+<meta property="og:description" content="- 介绍日常开发中，如果使用加速度计、陀螺仪和罗盘相关功能，需要监听设备方向事件deviceorientation和设备运动事件devicemotion。 相关文档">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://cfxmj.com/2016/08/01/hello/dog.gif">
-<meta property="og:updated_time" content="2019-05-27T10:17:39.898Z">
+<meta property="og:updated_time" content="2019-05-28T02:41:36.326Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World!">
-<meta name="twitter:description" content="搞技术的应该有一个博客，写写技术，写写感想，写写人生，😄写博客会上瘾，😄这很逼格，😄">
-<meta name="twitter:image" content="https://cfxmj.com/2016/08/01/hello/dog.gif">
+<meta name="twitter:title" content="iOS12.2+设备屏幕方向与运动失效问题">
+<meta name="twitter:description" content="- 介绍日常开发中，如果使用加速度计、陀螺仪和罗盘相关功能，需要监听设备方向事件deviceorientation和设备运动事件devicemotion。 相关文档">
 
 
 
@@ -117,7 +115,7 @@
 
   
   
-  <link rel="canonical" href="https://cfxmj.com/2016/08/01/hello/">
+  <link rel="canonical" href="https://cfxmj.com/2019/05/27/motion-and-orientation/">
 
 
 
@@ -127,7 +125,7 @@
   };
 </script>
 
-  <title>Hello World! | 一年的个人博客</title>
+  <title>iOS12.2+设备屏幕方向与运动失效问题 | 一年的个人博客</title>
   
 
 
@@ -336,7 +334,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://cfxmj.com/2016/08/01/hello/">
+    <link itemprop="mainEntityOfPage" href="https://cfxmj.com/2019/05/27/motion-and-orientation/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="一年">
@@ -353,7 +351,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World!
+          <h1 class="post-title" itemprop="name headline">iOS12.2+设备屏幕方向与运动失效问题
 
               
             
@@ -379,7 +377,7 @@
                 
               
 
-              <time title="创建时间：2016-08-01 17:53:44" itemprop="dateCreated datePublished" datetime="2016-08-01T17:53:44+08:00">2016-08-01</time>
+              <time title="创建时间：2019-05-27 18:12:04" itemprop="dateCreated datePublished" datetime="2019-05-27T18:12:04+08:00">2019-05-27</time>
             
 
             
@@ -397,7 +395,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/其它/" itemprop="url" rel="index"><span itemprop="name">其它</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/日常开发总结/" itemprop="url" rel="index"><span itemprop="name">日常开发总结</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/日常开发总结/Web/" itemprop="url" rel="index"><span itemprop="name">Web</span></a></span>
 
                 
                 
@@ -416,8 +421,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/2016/08/01/hello/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2016/08/01/hello/" itemprop="commentCount"></span>
+                <a href="/2019/05/27/motion-and-orientation/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/05/27/motion-and-orientation/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -425,7 +430,7 @@
 
           
           
-            <span id="/2016/08/01/hello/" class="leancloud_visitors" data-flag-title="Hello World!">
+            <span id="/2019/05/27/motion-and-orientation/" class="leancloud_visitors" data-flag-title="iOS12.2+设备屏幕方向与运动失效问题">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -456,16 +461,14 @@
       
 
       
-        <blockquote>
-<p>搞技术的应该有一个博客，写写技术，写写感想，写写人生，😄<br>写博客会上瘾，😄<br>这很逼格，😄</p>
-</blockquote>
+        <h3 id="介绍"><a href="#介绍" class="headerlink" title="- 介绍"></a>- 介绍</h3><p>日常开发中，如果使用加速度计、陀螺仪和罗盘相关功能，需要监听设备方向事件<code>deviceorientation</code>和设备运动事件<code>devicemotion</code>。</p>
+<p><a href="https://developers.google.com/web/fundamentals/native-hardware/device-orientation/" target="_blank" rel="noopener">相关文档</a></p>
 <a id="more"></a>
-<blockquote>
-<p>授人以 🐟 ，不如授人以 💊</p>
-</blockquote>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(😄) &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(😄);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><del>其实有一个原因是。。。校招，哈哈。。。</del></p>
-<p><img src="dog.gif" alt></p>
+<h3 id="坑"><a href="#坑" class="headerlink" title="- 坑"></a>- 坑</h3><p>API用法很简单，但是在前一阵实际开发时，在某些苹果手机上总是监听不到这两个事件，后来查到在<code>ios12.2+</code>以上，由于安全限制，必须在<code>https</code>协议下才能监听，而且在<code>Safari</code>下，默认会关闭设备监听事件，需要主动开启。</p>
+<p>设置：<code>Settings &gt; Safari &gt; Privacy &amp; Security &gt; Motion &amp; Orientation Access</code></p>
+<p><a href="https://www.macrumors.com/2019/02/04/ios-12-2-safari-motion-orientation-access-toggle/" target="_blank" rel="noopener">相关文档</a></p>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="- 注意事项"></a>- 注意事项</h3><p>在处理完业务逻辑，记得移除设备监听事件<code>removeEventListener</code></p>
+<h3 id="推荐"><a href="#推荐" class="headerlink" title="- 推荐"></a>- 推荐</h3><p><a href="https://whatwebcando.today/device-motion.html" target="_blank" rel="noopener">What Web Can Do Today</a></p>
 
       
     </div>
@@ -489,7 +492,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/其它/" rel="tag"># 其它</a>
+            <a href="/tags/日常开发总结/" rel="tag"># 日常开发总结</a>
+          
+            <a href="/tags/Web/" rel="tag"># Web</a>
           
         </div>
       
@@ -502,15 +507,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/01/03/reeact-note/" rel="next" title="React 小书">
+                <i class="fa fa-chevron-left"></i> React 小书
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/08/02/front-end/" rel="prev" title="前端知识点总结">
-                前端知识点总结 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -558,8 +563,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -616,6 +630,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#介绍"><span class="nav-number">1.</span> <span class="nav-text">- 介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#坑"><span class="nav-number">2.</span> <span class="nav-text">- 坑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注意事项"><span class="nav-number">3.</span> <span class="nav-text">- 注意事项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#推荐"><span class="nav-number">4.</span> <span class="nav-text">- 推荐</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       

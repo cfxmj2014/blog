@@ -1,5 +1,5 @@
 ---
-title: JavaScript高级程序设计-笔记
+title: JavaScript高级程序设计
 date: 2018-12-03 16:03:39
 tags: 读书笔记
 categories: 读书笔记

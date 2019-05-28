@@ -1,13 +1,15 @@
 ---
-title: React 小书-笔记
+title: React 小书
 date: 2019-01-03 10:29:32
 tags: 读书笔记
 categories: 读书笔记
 ---
-* react in 40
+
+[react 小书](https://github.com/huzidaha/react-naive-book)  
 
 <!-- more -->
 
+* react in 40
 ``` js
 class Component {
   constructor (props = {}) {
